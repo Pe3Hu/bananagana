@@ -11,7 +11,7 @@ const PORT = 9999
 var enet_peer = ENetMultiplayerPeer.new()
 
 func _ready():
-	#_on_host_button_pressed()
+	_on_host_button_pressed()
 	pass
 
 func _unhandled_input(event):
